@@ -17,4 +17,3 @@ Most of the object properties should be self-explanatory with the explanation of
 
 ## Things to Think About
 * Be careful about manifest.appcache. Make sure your web server is setting cache time on that file to 0. If that file gets cached by the client, you will have no way to invalidate the client's cache from the server. And don't forget increment it when you make a change, lest you fling your monitor across the room.
-lol
